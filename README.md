@@ -1,6 +1,6 @@
 # ko.microupdate
 Update viewmodels which follows the Constructor pattern.
-Object properties which aren't observables are updated as well.
+Object properties which aren't observables are updated as well. To distinguish between observables and observable arrays add square brackets to the corresponding key in the rules.
 
 Example of rule for observable arrays:
 ```
